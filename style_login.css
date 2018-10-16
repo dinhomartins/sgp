@@ -1,0 +1,81 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*corpo login*/
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%); 
+}
+@media only screen and (min-width: 600px) {
+  .box {
+    width: 400px;
+  }
+}
+.box h2{
+    font-family: sans-serif;
+    color: black;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+.txt-h2{
+    padding-bottom: 20px;
+}
+.input{
+    text-align: center;
+    margin-bottom: 20px;  
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.input:active{
+    background-color: transparent;
+    color: white;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+        color: white;
+}
+.btn-logar{
+    width: 100%;;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+}
+
+    
+    
